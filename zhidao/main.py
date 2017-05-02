@@ -39,8 +39,6 @@ class Logout:
         return render.head('亲，您还未登录呢')
         #raise web.seeother('/')
 
-
-
 class Index:
     def GET(self):
         if session.get('login'):
